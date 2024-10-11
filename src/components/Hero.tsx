@@ -13,24 +13,24 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+    <div className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-24">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
           Be the First to Access North America's Premier Product Management Job Board
         </h1>
-        <p className="text-xl md:text-2xl mb-8">
+        <p className="text-2xl md:text-3xl mb-12 max-w-3xl mx-auto">
           Launching soon—curated roles for Product Managers at every level.
         </p>
-        <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-md mx-auto">
+        <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-lg mx-auto">
           <Input
             type="email"
             placeholder="Enter your email to join the waitlist"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="bg-white text-gray-800"
+            className="bg-white text-gray-800 text-lg py-6"
           />
-          <Button type="submit" className="bg-yellow-500 hover:bg-yellow-600 text-gray-800">
+          <Button type="submit" className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 text-lg font-semibold py-6 px-8">
             Join Now
           </Button>
         </form>

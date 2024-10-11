@@ -5,33 +5,33 @@ import { Button } from '@/components/ui/button';
 const HowItWorks = () => {
   const steps = [
     {
-      icon: <Mail className="w-12 h-12 text-blue-500" />,
+      icon: <Mail className="w-16 h-16 text-blue-500" />,
       title: 'Join the waitlist',
       description: 'Enter your email to secure your spot.',
     },
     {
-      icon: <Bell className="w-12 h-12 text-green-500" />,
+      icon: <Bell className="w-16 h-16 text-green-500" />,
       title: 'Receive updates',
       description: 'Get exclusive updates and product previews.',
     },
     {
-      icon: <Rocket className="w-12 h-12 text-purple-500" />,
+      icon: <Rocket className="w-16 h-16 text-purple-500" />,
       title: 'Gain early access',
       description: 'Be among the first to use the platform when it launches.',
     },
   ];
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Get Ready for the Launch</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <h2 className="text-4xl font-bold text-center mb-16">Get Ready for the Launch</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {steps.map((step, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-              <div className="mb-4">{step.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-              <p className="text-gray-600 mb-4">{step.description}</p>
-              <Button variant="outline">Join Waitlist</Button>
+            <div key={index} className="flex flex-col items-center text-center bg-white p-8 rounded-lg shadow-lg transition-transform hover:scale-105">
+              <div className="mb-6">{step.icon}</div>
+              <h3 className="text-2xl font-semibold mb-4">{step.title}</h3>
+              <p className="text-gray-600 mb-6">{step.description}</p>
+              <Button variant="outline" className="text-lg py-3 px-6">Join Waitlist</Button>
             </div>
           ))}
         </div>
