@@ -24,14 +24,14 @@ const HowItWorks = () => {
   return (
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16">Get Ready for the Launch</h2>
+        <h2 className="font-mono text-4xl font-bold text-center mb-16">Get Ready for the Launch</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center bg-white p-8 rounded-lg shadow-lg transition-transform hover:scale-105">
               <div className="mb-6">{step.icon}</div>
-              <h3 className="text-2xl font-semibold mb-4">{step.title}</h3>
+              <h3 className="font-mono text-2xl font-semibold mb-4">{step.title}</h3>
               <p className="text-gray-600 mb-6">{step.description}</p>
-              <Button variant="outline" className="text-lg py-3 px-6">Join Waitlist</Button>
+              <Button variant="outline" className="text-lg py-3 px-6 font-mono">Join Waitlist</Button>
             </div>
           ))}
         </div>
