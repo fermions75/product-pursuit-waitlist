@@ -13,15 +13,10 @@ const Footer = () => {
           <div className="flex flex-wrap gap-8">
             <a href="#" className="hover:text-yellow-400 transition-colors">About Us</a>
             <a href="#" className="hover:text-yellow-400 transition-colors">Contact</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">Terms of Service</a>
           </div>
         </div>
         <div className="mt-12 flex justify-center space-x-8">
-          <a href="#" className="hover:text-yellow-400 transition-colors"><Facebook size={24} /></a>
-          <a href="#" className="hover:text-yellow-400 transition-colors"><Twitter size={24} /></a>
-          <a href="#" className="hover:text-yellow-400 transition-colors"><Instagram size={24} /></a>
-          <a href="#" className="hover:text-yellow-400 transition-colors"><Linkedin size={24} /></a>
+          <a href="https://www.linkedin.com/company/letsteamup/" target='new tab' className="hover:text-yellow-400 transition-colors"><Linkedin size={24} /></a>
         </div>
       </div>
     </footer>

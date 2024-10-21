@@ -22,17 +22,14 @@ const Hero = () => {
           Launching soon—curated roles for Product Managers at every level.
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-lg mx-auto">
-          <Input
-            type="email"
-            placeholder="Enter your email to join the waitlist"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="bg-white text-gray-800 text-lg py-6"
-          />
-          <Button type="submit" className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 text-lg font-semibold py-6 px-8 font-mono">
-            Join Now
-          </Button>
+        <div className="flex justify-center w-full">
+          <a 
+            href="https://forms.gle/h9bMXQ78QPhZdpvX9" target='new tab'
+            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 text-lg font-semibold py-6 px-8 font-mono"
+          >
+            Subscribe Now
+          </a>
+        </div>
         </form>
       </div>
     </div>
