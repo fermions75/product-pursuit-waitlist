@@ -31,7 +31,7 @@ const HowItWorks = () => {
               <div className="mb-6">{step.icon}</div>
               <h3 className="font-mono text-2xl font-semibold mb-4">{step.title}</h3>
               <p className="text-gray-600 mb-6">{step.description}</p>
-              <Button variant="outline" className="text-lg py-3 px-6 font-mono">Join Waitlist</Button>
+              
             </div>
           ))}
         </div>

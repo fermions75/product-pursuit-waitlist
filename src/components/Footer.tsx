@@ -11,8 +11,8 @@ const Footer = () => {
             <p>&copy; 2024 All rights reserved.</p>
           </div>
           <div className="flex flex-wrap gap-8">
-            <a href="#" className="hover:text-yellow-400 transition-colors">About Us</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">Contact</a>
+            
+            <a href="mailto:farhan@findteamup.com" className="hover:text-yellow-400 transition-colors">Contact</a>
           </div>
         </div>
         <div className="mt-12 flex justify-center space-x-8">
