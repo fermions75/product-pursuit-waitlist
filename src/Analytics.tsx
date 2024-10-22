@@ -3,8 +3,7 @@ import ReactGA from 'react-ga';
 
 const Analytics = () => {
   useEffect(() => {
-    ReactGA.initialize('G-9PE4G81LN6');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.initialize("G-9PE4G81LN6");
   }, []);
 
   return null;
