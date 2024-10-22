@@ -6,11 +6,6 @@ const supabaseUrl = import.meta.env.VITE_PROJECT_URL;
 const supabaseAnonKey = import.meta.env.VITE_API_KEY;
 
 
-
-
-// const supabaseUrl = 'https://bqdgrupmdvuglumgusvc.supabase.co';
-// const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxZGdydXBtZHZ1Z2x1bWd1c3ZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjk1NzIxMzksImV4cCI6MjA0NTE0ODEzOX0.Zc8AdZ3_AhZFcVIfEOzXpNZ3y7fkjWuUkwc8RcFRL-k';
-
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Modal component
